@@ -1,0 +1,17 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#container div {
+  width: calc(100% / 16 - 2px); /* subtract 2px for left+right border */
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content: center;
+}
